@@ -43,6 +43,7 @@
             this.toolStripLabel2 = new System.Windows.Forms.ToolStripLabel();
             this.config = new System.Windows.Forms.ToolStripComboBox();
             this.cropBtn = new System.Windows.Forms.ToolStripButton();
+            this.toolStripLabel4 = new System.Windows.Forms.ToolStripLabel();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.inputListBox = new System.Windows.Forms.ListBox();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -50,7 +51,6 @@
             this.addFileDialog = new System.Windows.Forms.OpenFileDialog();
             this.trackBar1 = new System.Windows.Forms.TrackBar();
             this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
-            this.toolStripLabel4 = new System.Windows.Forms.ToolStripLabel();
             this.statusStrip1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
@@ -180,11 +180,19 @@
             this.cropBtn.Enabled = false;
             this.cropBtn.Image = ((System.Drawing.Image)(resources.GetObject("cropBtn.Image")));
             this.cropBtn.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.cropBtn.Margin = new System.Windows.Forms.Padding(0, 1, 20, 2);
+            this.cropBtn.Margin = new System.Windows.Forms.Padding(50, 1, 50, 2);
             this.cropBtn.Name = "cropBtn";
             this.cropBtn.Size = new System.Drawing.Size(70, 22);
             this.cropBtn.Text = "Crop All";
             this.cropBtn.Click += new System.EventHandler(this.CropBtn_Click);
+            // 
+            // toolStripLabel4
+            // 
+            this.toolStripLabel4.ForeColor = System.Drawing.Color.Blue;
+            this.toolStripLabel4.Name = "toolStripLabel4";
+            this.toolStripLabel4.Size = new System.Drawing.Size(149, 22);
+            this.toolStripLabel4.Text = "Created by Akshay Nikhare";
+            this.toolStripLabel4.Click += new System.EventHandler(this.toolStripLabel4_Click);
             // 
             // splitContainer1
             // 
@@ -255,14 +263,6 @@
             this.trackBar1.TickStyle = System.Windows.Forms.TickStyle.None;
             this.trackBar1.Value = 100;
             this.trackBar1.Scroll += new System.EventHandler(this.TrackBar1_Scroll);
-            // 
-            // toolStripLabel4
-            // 
-            this.toolStripLabel4.ForeColor = System.Drawing.Color.Blue;
-            this.toolStripLabel4.Name = "toolStripLabel4";
-            this.toolStripLabel4.Size = new System.Drawing.Size(149, 22);
-            this.toolStripLabel4.Text = "Created by Akshay Nikhare";
-            this.toolStripLabel4.Click += new System.EventHandler(this.toolStripLabel4_Click);
             // 
             // Form1
             // 
