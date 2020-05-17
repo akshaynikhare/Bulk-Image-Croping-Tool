@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="BulkImageCroping.exe" version="1.0.0.1" publicKeyToken="bc7342ce92604a02" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Crop_icon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="BulkImageCroping" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="BulkImageCroping.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+             If you want to change the Windows User Account Control level replace the 
+             requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel element will disable file and registry virtualization. 
+            Remove this element if your application requires this virtualization for backwards
+            compatibility.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BulkImageCroping.exe" size="45040">
+      <assemblyIdentity name="BulkImageCroping" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>SfFt/LbMWMELyWikIw/1u0ajpPh5jbVq+HeBElilKZc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="BulkImageCroping.exe.config" size="186">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>1NgAxCSw4ibTXzWVy7D6Rw60Qih4Dn37KvGhG5Ora/s=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Crop_icon.ico" size="10401">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ljZwHxvBs+bmhc1pVfQq9puXxCLsdJXWE3+WC0Np6w8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of the Windows versions that this application has been tested on
+           and is designed to work with. Uncomment the appropriate elements
+           and Windows will automatically select the most compatible environment. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=IMOS_LAPTOP_PRE\akshay.n" issuerKeyHash="28d60985c3278923745b476a190226d6d87e0f6e" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>eVjcCJM6UCbd6OQqSmh/ETgwOy6LO3j2PkZJmCJPBDk=</DigestValue></Reference></SignedInfo><SignatureValue>YiNvFyM5U2JlBA+l1bukdKF29fXfZP2CSgYLKxujmmr03Y/3IdYU0ih/CvC4HkdsHe8Svam+KJH8kz6eDDnPPJ3eRlyQMNxuoXir9BkYaPDy94nWvQ3vzD1aq2cdduWUu/U8gkASq6NfOJCyYnJRgAoLsaj/jz0UfqnCXOlHk7c=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>xkF7SlLW7JF0/tL7yA0v8liqzX79BFPnVQzPqYz4f6caRA7M9exhltypGLvpccY3fwb40nLVi2FoYaaDNTswgolTP1Lj5QgPSdq7ycCOxXrOnJzT+EEkMyX09A0wwf7og06fKakGfiWV+HtkEUgJeYMgzA1RcZvkAnnFsYZfbRE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="39044f229849463ef6783b8b2e3b3038117f684a2ae4e8dd26503a9308dc5879" Description="" Url=""><as:assemblyIdentity name="BulkImageCroping.exe" version="1.0.0.1" publicKeyToken="bc7342ce92604a02" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=IMOS_LAPTOP_PRE\akshay.n</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Ee7EWquK3e2My1lD5kgSp/ue3FbqebQ9dPUpsCp1DX4=</DigestValue></Reference></SignedInfo><SignatureValue>e5WH2ODbaw5qNZKTqVZzwmB8yVKOKH0/lJcYkEAYcfKMi4/A0S5roAZsiw2M1w6xZRs1vE6s9q4L3h4VnQFvvj9kzYRBIemxNuOvxDyFEcH62gfAfc2OhKKmmM8bA5PLu6lvKlsSejcC4/b5ZZJQhPj9Ln9BbB90mKIUkSy76Uw=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>xkF7SlLW7JF0/tL7yA0v8liqzX79BFPnVQzPqYz4f6caRA7M9exhltypGLvpccY3fwb40nLVi2FoYaaDNTswgolTP1Lj5QgPSdq7ycCOxXrOnJzT+EEkMyX09A0wwf7og06fKakGfiWV+HtkEUgJeYMgzA1RcZvkAnnFsYZfbRE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB+TCCAWKgAwIBAgIQNZEPlCbWcJBO48Lkwa40mjANBgkqhkiG9w0BAQsFADA7MTkwNwYDVQQDHjAASQBNAE8AUwBfAEwAQQBQAFQATwBQAF8AUABSAEUAXABhAGsAcwBoAGEAeQAuAG4wHhcNMjAwNTE3MDkwODM0WhcNMjEwNTE3MTUwODM0WjA7MTkwNwYDVQQDHjAASQBNAE8AUwBfAEwAQQBQAFQATwBQAF8AUABSAEUAXABhAGsAcwBoAGEAeQAuAG4wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMZBe0pS1uyRdP7S+8gNL/JYqs1+/QRT51UMz6mM+H+nGkQOzPXsYZbcqRi76XHGN38G+NJy1YthaGGmgzU7MIKJUz9S4+UID0nau8nAjsV6zpyc0/hBJDMl9PQNMMH+6INOnympBn4llfh7ZBFICXmDIMwNUXGb5AJ5xbGGX20RAgMBAAEwDQYJKoZIhvcNAQELBQADgYEABtdXw+gu3KXtpMsCgf1rICQu3lqnSVvveBb5+Xi7hnf/udOa8aafLOvtrWcO+rgbfu5Fn0WacOwmYzFOVJN6YQHVJW85ea3lGWPks/9bu5gKuqiYYTV3QkHt0ix8CnZ0tN8fBmWPtY9INPxVqb7rTplGL6XVG0CpV1naNmhQTT0=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
