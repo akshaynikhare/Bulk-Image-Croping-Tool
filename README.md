@@ -11,8 +11,8 @@
 
 ## Installation
 
-*  Setup file V1.1:        [Setup_Bulk-Image-Croping-Tool_v1.1.exe](/installer/Setup_Bulk-Image-Croping-Tool_v1.1.exe)
-* Portable version v1.1   [Setup_Bulk-Image-Croping-Tool_v1.1.exe](/installer/BulkImageCroping_V1.1.exe)
+* Setup file V1.1:        [Setup_Bulk-Image-Croping-Tool_v1.1.exe](/installer/Setup_Bulk-Image-Croping-Tool_v1.1.exe)
+* Portable version v1.1   [BulkImageCroping_V1.1.exe](/installer/BulkImageCroping_V1.1.exe)
 
 
 
