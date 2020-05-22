@@ -1,6 +1,6 @@
 # Bulk Image Cropping Tool  
 
-[![Build Status](https://api.travis-ci.com/akshaynikhare/Bulk-Image-Croping-Tool.svg?branch=master)](https://travis-ci.com/akshaynikhare/Bulk-Image-Croping-Tool)
+![WPF .NET Core](https://github.com/akshaynikhare/Bulk-Image-Croping-Tool/workflows/WPF%20.NET%20Core/badge.svg)      [![Build Status](https://api.travis-ci.com/akshaynikhare/Bulk-Image-Croping-Tool.svg?branch=master)](https://travis-ci.com/akshaynikhare/Bulk-Image-Croping-Tool)
 
 
  build for Cropping images in bulk.
